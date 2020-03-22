@@ -1,4 +1,11 @@
 # 🏗️ Project setup
+
+* [📦 NPM package](#-npm-package)
+* [🦖 Typescript](#-typescript)
+* [🎀 eslint](#-eslint)
+* [🃏 Jest](#-jest)
+* [🖥 Dev server](#-dev-server)
+
 For an example project (without express server) see https://github.com/jbrems/logger.
 
 ## 📦 NPM package
