@@ -1,4 +1,5 @@
 # 🏗️ Project setup
+For an example project (without express server) see https://github.com/jbrems/logger.
 
 ## 📦 NPM package
 To setup your project as an NPM package and generate a `package.json` run `npm init` and 
@@ -18,6 +19,13 @@ To ensure the quality of your published packages add the following script to you
 }
 ```
 > We will add the `test` and `build` scripts later in this checklist.
+
+Add a `postpublish` script to commit the version bump and created tag to git.
+```javascript
+"scripts": {
+  "postpublish": "git push && git push --tags"
+}
+```
 
 ## 🦖 Typescript
 To add typescript to your project run `yarn add --dev typescript` and create a `tsconfig.json`
